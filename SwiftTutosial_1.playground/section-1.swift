@@ -45,3 +45,16 @@ if (onSaleInferred) {
 } else {
     println("\(nameInferred) at regular price: \(priceInferred)!")
 }
+
+
+var array1 = ["abc", "def", "ghi"]
+for (var i = 0; i < array1.count; i++){
+    println(array1[i])
+}
+
+
+var array2 = ["a","b","c"]
+var str2 = ""
+for str2 in array2 {
+    println(str2)
+}
