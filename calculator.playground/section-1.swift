@@ -6,33 +6,33 @@ var str = "Hello, calculator"
 
 class cal{
     func add(x:Double,y:Double)->Double {
-        let sum = Double(x+y)
-        println("\(x) + \(y) = \(sum)")
-        return sum
+        let result = Double(x+y)
+        println("\(x) + \(y) = \(result)")
+        return result
     }
     
     func sub(x:Double,y:Double)->Double {
-        let sum = Double(x-y)
-        println("\(x) - \(y) = \(sum)")
-        return sum
+        let result = Double(x-y)
+        println("\(x) - \(y) = \(result)")
+        return result
     }
     
     func multi(x:Double,y:Double)->Double {
-        let sum = Double(x*y)
-        println("\(x) x \(y) = \(sum)")
-        return sum
+        let result = Double(x*y)
+        println("\(x) x \(y) = \(result)")
+        return result
     }
     
     func div(x:Double,y:Double)->Double {
-        let sum = Double(x/y)
-        println("\(x) / \(y) = \(sum)")
-        return sum
+        let result = Double(x/y)
+        println("\(x) / \(y) = \(result)")
+        return result
     }
     
     func mod(x:Double,y:Double)->Double {
-        let sum = Double(x%y)
-        println("\(x) % \(y) = \(sum)")
-        return sum
+        let result = Double(x%y)
+        println("\(x) % \(y) = \(result)")
+        return result
     }
 }
 
