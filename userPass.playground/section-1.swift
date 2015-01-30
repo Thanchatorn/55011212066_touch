@@ -35,8 +35,13 @@ class userPass {
         }
     }
 
-    func del(name: String){
-        namePass[name] = nil
+    func del(name: String)->String{
+        if(namePass[name] != nil){
+            namePass[name] = nil
+            return "delete complete"
+        }else{
+            return "cannot delete"
+        }
     }
 }
 
